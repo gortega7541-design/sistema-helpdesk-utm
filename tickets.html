@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tickets Almacenados - Help Desk</title>
+</head>
+<body>
+
+<header>
+    <img src="logo.png"
+     alt="Logo Universidad Técnica de Manabí"
+     width="150">
+
+    <h1>Sistema Help Desk </h1>
+
+    <p>Universidad Técnica de Manabí</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reportar.html">Reportar Incidente</a></li>
+            <li><a href="tickets.html">Ver Tickets</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Tickets Almacenados</h2>
+
+        <table>
+            <caption>
+                Almacenamiento de incidentes técnicos —  UTM
+            </caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">ID Ticket</th>
+                    <th scope="col">Título</th>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Prioridad</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Técnico asignado</th>
+                    <th scope="col">Fecha de creación</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>TK-001</td>
+                    <td>Mal funcionamiento del switch principal de distribución del segundo piso.</td>
+                    <td>Red</td>
+                    <td>Alta</td>
+                    <td>En progreso</td>
+                    <td>Ginger Lorena Ortega Bartolome</td>
+                    <td>2026-04-15</td>
+                </tr>
+
+                <tr>
+                    <td>TK-002</td>
+                    <td>Estado degradado del disco de respaldo del servidor.</td>
+                    <td>Hardware</td>
+                    <td>Alta</td>
+                    <td>Abierto</td>
+                    <td>Cedeño Pullopaxi Ronald</td>
+                    <td>2026-02-16</td>
+                </tr>
+
+                <tr>
+                    <td>TK-003</td>
+                    <td>El servicio de Directorio Activo no está disponible.</td>
+                    <td>Software</td>
+                    <td>Media</td>
+                    <td>Resuelto</td>
+                    <td>Ginger Lorena Ortega Bartolome</td>
+                    <td>2026-03-20</td>
+                </tr>
+
+                <tr>
+                    <td>TK-004</td>
+                    <td>Problemas de conexión en el laboratorio de informática.</td>
+                    <td>Red</td>
+                    <td>Media</td>
+                    <td>Abierto</td>
+                    <td>Madelyn Cedeño</td>
+                    <td>2026-05-23</td>
+                </tr>
+
+                <tr>
+                    <td>TK-005</td>
+                    <td>Actualización incompleta del entorno de virtualización.</td>
+                    <td>Software</td>
+                    <td>Baja</td>
+                    <td>Resuelto</td>
+                    <td>Joselyn Medranda</td>
+                    <td>2026-04-24</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            <strong>Total de tickets almacenados: 5</strong>
+        </p>
+
+    </section>
+
+    <section>
+        <h2>Información de Seguimiento</h2>
+
+        <dl>
+            <dt>Abierto</dt>
+            <dd>
+                La solicitud ha sido registrada y se encuentra 
+                en espera de revisión por parte del equipo de soporte.
+
+            </dd>
+
+            <dt>En progreso</dt>
+            <dd>
+                La incidencia ha sido asignada a un miembro del equipo de soporte técnico, 
+                quien se encuentra trabajando activamente en su análisis y resolución. 
+                Se están ejecutando las acciones necesarias para restablecer el servicio 
+                o corregir el problema reportado.
+
+            </dd>
+
+            <dt>Resuelto</dt>
+            <dd>
+               La incidencia fue atendida y solucionada exitosamente. 
+               Tras la aplicación de las medidas correctivas correspondientes, 
+               el servicio afectado fue restablecido y se verificó su correcto funcionamiento, 
+               dando por concluido el proceso de atención del ticket.
+
+            </dd>
+        </dl>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © 2026 Universidad Técnica de Manabí - Data Center
+    </p>
+</footer>
+
+</body>
+</html>
