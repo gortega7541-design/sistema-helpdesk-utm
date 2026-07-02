@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Kit Help Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <<img src="img/logo.png" alt="Logo UTM" class="logo">
+
+    <h1>Librería de Componentes UI</h1>
+
+    <!-- BOTONES -->
+    <div class="card">
+        <h2>Botones</h2>
+
+        <button class="btn btn-primary">Guardar</button>
+        <button class="btn btn-secondary">Cancelar</button>
+        <button class="btn btn-danger">Eliminar</button>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="card">
+        <h2>Formulario</h2>
+
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingrese su nombre">
+
+        <label>Categoría</label>
+        <select>
+            <option>Hardware</option>
+            <option>Software</option>
+            <option>Redes</option>
+        </select>
+    </div>
+
+    <!-- PRIORIDADES -->
+    <div class="card">
+        <h2>Prioridades</h2>
+
+        <span class="badge alta">Alta</span>
+        <span class="badge media">Media</span>
+        <span class="badge baja">Baja</span>
+    </div>
+
+    <!-- TICKETS -->
+    <div class="card">
+
+        <h2>Tickets de Soporte</h2>
+
+        <div class="ticket">
+            <h3>🖥️ Error al iniciar sesión</h3>
+
+            <p><strong>ID:</strong> TK-001</p>
+            <p><strong>Usuario:</strong> Ginger Ortega</p>
+            <p><strong>Categoría:</strong> Software</p>
+            <p><strong>Fecha:</strong> 01/07/2026</p>
+            <p><strong>Descripción:</strong> El usuario no puede acceder al sistema con sus credenciales. Se requiere verificar la cuenta y restablecer la contraseña.</p>
+
+            <span class="estado">Abierto</span>
+            <span class="badge alta">Alta</span>
+        </div>
+
+        <div class="ticket">
+            <h3>🌐 Computadora sin conexión a Internet</h3>
+
+            <p><strong>ID:</strong> TK-002</p>
+            <p><strong>Usuario:</strong> Carlos Mendoza</p>
+            <p><strong>Categoría:</strong> Redes</p>
+            <p><strong>Fecha:</strong> 01/07/2026</p>
+            <p><strong>Descripción:</strong> El equipo perdió la conexión a Internet y no puede acceder a los servicios institucionales. Se está revisando el cableado y la configuración de red.</p>
+
+            <span class="proceso">En proceso</span>
+            <span class="badge media">Media</span>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
