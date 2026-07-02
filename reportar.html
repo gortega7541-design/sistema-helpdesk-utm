@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+
     <title>Sistema Help Desk - Data Center</title>
 </head>
 <body>
@@ -46,6 +52,7 @@
                     </label>
 
                     <input
+                    class="input"
                         type="text"
                         id="titulo"
                         name="titulo"
@@ -57,7 +64,8 @@
                         Categoría
                     </label>
 
-                    <select
+                    <select class="select"
+            
                         id="categoria"
                         name="categoria"
                         required>
@@ -118,8 +126,13 @@
                 </fieldset>
 
             </fieldset>
-
+<p>
+    <button class="btn btn-primary" type="submit">
+    Enviar Reporte
+</button>
+</p>
         </form>
+       
 
     </section>
 
